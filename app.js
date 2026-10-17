@@ -94,7 +94,13 @@
     'syrn-bridal': { name: 'Bridal Edit · supplied inspiration', category: 'EXTERNAL BRAND · DESIGN REFERENCE', image: 'external-ref-syrn-bridal.jpg', description: 'A user-supplied bridal-style external reference image.', note: 'External-brand inspiration only. This prototype does not link to or embed the external brand website.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
     'syrn-gift': { name: 'Gift Collection · supplied inspiration', category: 'EXTERNAL BRAND · DESIGN REFERENCE', image: 'external-ref-syrn-gift.jpg', description: 'A user-provided external-brand gift collection reference.', note: 'External-brand inspiration only; not BLACKED stock or an authorized collaboration.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
     'syrn-romance': { name: 'Soft Romance · supplied inspiration', category: 'EXTERNAL BRAND · DESIGN REFERENCE', image: 'external-ref-syrn-romance.jpg', description: 'A pink lace and floral styling reference supplied by you.', note: 'External-brand inspiration only; not BLACKED inventory or a product for sale.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
-    'syrn-garter-front': { name: 'Garter Skirt · front product reference', category: 'EXTERNAL BRAND · DESIGN REFERENCE', image: 'external-ref-syrn-garter-skirt-front.jpg', description: 'Clean crop of the front product photo from your supplied external screenshot.', note: 'Reference only, not BLACKED stock. No direct external-store link has been added.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' }
+    'syrn-garter-front': { name: 'Garter Skirt · front product reference', category: 'EXTERNAL BRAND · DESIGN REFERENCE', image: 'external-ref-syrn-garter-skirt-front.jpg', description: 'Clean crop of the front product photo from your supplied external screenshot.', note: 'Reference only, not BLACKED stock. No direct external-store link has been added.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
+    'syrn-skirting-editorial': { name: 'Skirting Around Garter Skirt · campaign reference', category: 'USER-SUPPLIED EXTERNAL BRAND REFERENCE', image: 'external-ref-syrn-skirting-garter-editorial.png', description: 'Full editorial reference image uploaded by you, showing a black lace bra, garter skirt and stockings look.', note: 'External-brand reference only, not BLACKED inventory. No external website is embedded or linked; public commercial reuse needs appropriate permission.', gallery: ['external-ref-syrn-garter-skirt-front.jpg','external-ref-syrn-garter-skirt-back.jpg','external-ref-syrn-garter-back-full.png'], external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
+    'syrn-own-night': { name: 'Own the Night · campaign reference', category: 'USER-SUPPLIED EXTERNAL BRAND REFERENCE', image: 'external-ref-syrn-own-the-night.png', description: 'Black lace editorial direction supplied by you for inspiration.', note: 'External-brand reference only; not BLACKED stock or an authorized collaboration.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
+    'syrn-curves-confidence': { name: 'Curves & Confidence · campaign reference', category: 'USER-SUPPLIED EXTERNAL BRAND REFERENCE', image: 'external-ref-syrn-curves-confidence.png', description: 'Campaign-style reference supplied by you, for private style planning.', note: 'External-brand reference only; not BLACKED stock or an authorized collaboration.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
+    'syrn-signature-lace': { name: 'The Signature Lace Set · reference', category: 'USER-SUPPLIED EXTERNAL BRAND REFERENCE', image: 'external-ref-syrn-signature-lace.png', description: 'Lace set and garter skirt styling reference uploaded by you.', note: 'External-brand reference only. It does not confirm BLACKED product availability or usage rights.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
+    'syrn-midnight-allure': { name: 'Midnight Allure · campaign reference', category: 'USER-SUPPLIED EXTERNAL BRAND REFERENCE', image: 'external-ref-syrn-midnight-allure.png', description: 'Dark editorial styling reference from your supplied images.', note: 'External-brand reference only; not BLACKED stock and not a product link.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' },
+    'syrn-garter-back-full': { name: 'Garter Skirt · full back-view reference', category: 'USER-SUPPLIED EXTERNAL BRAND REFERENCE', image: 'external-ref-syrn-garter-back-full.png', description: 'Full back-view reference photo supplied by you.', note: 'External-brand reference only. Do not use as a BLACKED product listing without rights and product confirmation.', external: true, filterCategory: 'external', sourceType: 'external', previewNote: 'EXTERNAL DESIGN REFERENCE · NOT BLACKED STOCK' }
   });
 
   // Product reference metadata for non-commercial prototype decisions. These are visual references, not confirmed SKUs.
@@ -135,7 +141,13 @@
     'syrn-bridal': { source: 'User-supplied external-brand reference', look: 'Ivory lace', styles: ['lace'], colors: ['pink'], coverage: 'External reference', sku: 'External reference only' },
     'syrn-gift': { source: 'User-supplied external-brand reference', look: 'Red gift collection', styles: ['lace', 'statement'], colors: ['red'], coverage: 'External reference', sku: 'External reference only' },
     'syrn-romance': { source: 'User-supplied external-brand reference', look: 'Pink floral lace', styles: ['lace', 'statement'], colors: ['pink'], coverage: 'External reference', sku: 'External reference only' },
-    'syrn-garter-front': { source: 'User-supplied external-brand reference', look: 'Garter skirt front view', styles: ['lace', 'statement'], colors: ['black'], coverage: 'External reference', sku: 'External reference only' }
+    'syrn-garter-front': { source: 'User-supplied external-brand reference', look: 'Garter skirt front view', styles: ['lace', 'statement'], colors: ['black'], coverage: 'External reference', sku: 'External reference only' },
+    'syrn-skirting-editorial': { source: 'User-supplied external-brand reference', look: 'Garter skirt / lace editorial', styles: ['lace', 'statement'], colors: ['black'], coverage: 'External reference', sku: 'External reference only' },
+    'syrn-own-night': { source: 'User-supplied external-brand reference', look: 'Black lace night editorial', styles: ['lace', 'statement'], colors: ['black'], coverage: 'External reference', sku: 'External reference only' },
+    'syrn-curves-confidence': { source: 'User-supplied external-brand reference', look: 'Black lace editorial', styles: ['lace', 'statement'], colors: ['black'], coverage: 'External reference', sku: 'External reference only' },
+    'syrn-signature-lace': { source: 'User-supplied external-brand reference', look: 'Black signature lace', styles: ['lace', 'statement'], colors: ['black'], coverage: 'External reference', sku: 'External reference only' },
+    'syrn-midnight-allure': { source: 'User-supplied external-brand reference', look: 'Black garter and lace look', styles: ['lace', 'statement'], colors: ['black'], coverage: 'External reference', sku: 'External reference only' },
+    'syrn-garter-back-full': { source: 'User-supplied external-brand reference', look: 'Garter skirt back view', styles: ['lace', 'statement'], colors: ['black'], coverage: 'External reference', sku: 'External reference only' }
   };
 
   // Add every additional supplied image as its own catalog/reference card (without external store links).
@@ -871,7 +883,7 @@
     const suggestedColors = {
       redlace: '#b84f70', blacklace: '#252123', velvet: '#6e4259', rose: '#b84f70', sculpt: '#252123', midnight: '#252123', scarlet: '#70253a', ivory: '#d8c5ad', 'syrn-demi': '#c7978d', 'syrn-balconette': '#242026', 'syrn-bodysuit': '#7d384f',
       butterfly: '#b84f70', move: '#252123', yoga: '#252123', stretch: '#252123',
-      signature: '#252123', together: '#252123', 'midnight-lace-alt': '#252123', 'midnight-lace-upload': '#252123', 'midnight-sculpt-alt': '#252123', 'noir-rose': '#252123', 'scarlet-ivory-grid': '#70253a', 'curve-comfort': '#70253a', 'model-duo': '#252123', 'duo-campaign': '#252123', 'ivory-alt': '#d8c5ad', 'move-alt': '#252123', 'cat-cow': '#252123', 'bow-lace': '#b84f70', 'move-upload': '#252123', 'stretch-upload': '#252123', 'syrn-garter-pose': '#252123', 'syrn-luxury': '#252123', 'syrn-bridal': '#d8c5ad', 'syrn-gift': '#70253a', 'syrn-romance': '#b84f70', 'syrn-garter-front': '#252123'
+      signature: '#252123', together: '#252123', 'midnight-lace-alt': '#252123', 'midnight-lace-upload': '#252123', 'midnight-sculpt-alt': '#252123', 'noir-rose': '#252123', 'scarlet-ivory-grid': '#70253a', 'curve-comfort': '#70253a', 'model-duo': '#252123', 'duo-campaign': '#252123', 'ivory-alt': '#d8c5ad', 'move-alt': '#252123', 'cat-cow': '#252123', 'bow-lace': '#b84f70', 'move-upload': '#252123', 'stretch-upload': '#252123', 'syrn-garter-pose': '#252123', 'syrn-luxury': '#252123', 'syrn-bridal': '#d8c5ad', 'syrn-gift': '#70253a', 'syrn-romance': '#b84f70', 'syrn-garter-front': '#252123', 'syrn-skirting-editorial': '#252123', 'syrn-own-night': '#252123', 'syrn-curves-confidence': '#252123', 'syrn-signature-lace': '#252123', 'syrn-midnight-allure': '#252123', 'syrn-garter-back-full': '#252123'
     };
     studioState.color = suggestedColors[activeProduct] || '#252123';
     updatePreviewModeUI();
@@ -1161,6 +1173,56 @@
     fitDetectiveResult.innerHTML = `<p class="product-kicker">YOUR FIT CHECK</p><h3>${advice.title}</h3><p>${advice.text}</p><a class="text-link" href="#collection">Explore product references <span aria-hidden="true">→</span></a>`;
     fitDetectiveResult.hidden = false;
     fitDetectiveResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+
+  // Plus-One Club: transparent prototype-only planner; does not send or store any request.
+  const companionForm = $('#companionRequestForm');
+  const companionResult = $('#companionRequestResult');
+  const companionMessage = $('#companionRequestMessage');
+  const companionExperience = $('#companionExperience');
+  const companionDate = $('#companionDate');
+  const companionActivityLabels = {
+    coffee: 'Coffee & conversation',
+    event: 'Public event / exhibition',
+    dinner: 'Dinner at a public venue',
+    city: 'Museum / daytime city walk'
+  };
+  const companionStyleLabels = {
+    easygoing: 'Easygoing conversation',
+    outgoing: 'Friendly and outgoing',
+    formal: 'Polished event plus-one',
+    quiet: 'Quiet, low-pressure company'
+  };
+  if (companionDate) {
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const yyyy = tomorrow.getFullYear();
+    const mm = String(tomorrow.getMonth() + 1).padStart(2, '0');
+    const dd = String(tomorrow.getDate()).padStart(2, '0');
+    companionDate.min = `${yyyy}-${mm}-${dd}`;
+  }
+  $$('[data-companion-pick]').forEach(button => button.addEventListener('click', () => {
+    if (companionExperience && companionActivityLabels[button.dataset.companionPick]) companionExperience.value = button.dataset.companionPick;
+    companionForm?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    companionExperience?.focus({ preventScroll: true });
+    toast('Experience selected. This prototype does not book or contact anyone.');
+  }));
+  companionForm?.addEventListener('submit', event => {
+    event.preventDefault();
+    if (!companionForm.reportValidity()) return;
+    if (!$('#companionAdultCheck')?.checked || !$('#companionBoundaryCheck')?.checked || !$('#companionDemoCheck')?.checked) {
+      toast('Please confirm all age, boundary and demo notices.');
+      return;
+    }
+    const outing = companionActivityLabels[companionExperience?.value] || 'Public outing';
+    const preferredDate = companionDate?.value ? new Date(`${companionDate.value}T12:00:00`).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) : 'No date chosen';
+    const style = companionStyleLabels[$('#companionStyle')?.value] || 'No preference';
+    if (companionMessage) companionMessage.textContent = `${outing} · ${preferredDate} · ${style}. This is a local preview only. No real provider is available and nothing has been sent or saved.`;
+    if (companionResult) {
+      companionResult.hidden = false;
+      companionResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    toast('Preview created locally. No booking request sent.');
   });
 
   // A consistent year display; no analytics, external scripts or tracking are used.

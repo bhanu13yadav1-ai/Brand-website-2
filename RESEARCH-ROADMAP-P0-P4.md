@@ -289,3 +289,14 @@ External-brand screenshots supplied by the owner are only used as cropped, clear
 - Baymard 2026 quantitative insights: https://baymard.com/research-articles/apparel-and-accessories-quantitative-ux-insights-2026
 - Baymard product page UX (2026): https://baymard.com/research-articles/current-state-ecommerce-product-page-ux
 - Playboy, Inc. filing on licensing and marks: https://www.sec.gov/Archives/edgar/data/1803914/000162828026018238/ply-20251231.htm
+
+
+## v0.8.0 addition — Plus-One Club (separate 18+ concept)
+
+A clean, non-sexual, platonic companion-outing idea is added as a separate concept. It is intended for public activities (coffee/conversation, event plus-one, public-venue dinner, museum/daytime city walk). It does not promise romance, sexual services, real profiles, availability, prices or a completed booking.
+
+Prototype requirements: self-attestation only (not real age verification), public-place boundary acknowledgment, non-sexual boundary acknowledgment and clear demo consent. No name, phone, ID, exact location, payment or booking data is collected; the form does not call an API or store the request.
+
+Before a public live service, conduct local legal review and implement verified adult identity/age checks, provider screening, safeguarding/moderation, block/report, complaint response, safe communication, payments/receipts, clear fees, refunds/cancellations and privacy/data-deletion flows. The project does not currently provide any of those live service operations and should not be advertised as a functioning companion-hire platform.
+
+Safety patterns researched: Bumble's public guidance recommends verification, block/report and public first meetings / sharing plans; MeitY has published the DPDP Rules 2025 with phased enforcement. These sources inform design but do not imply the site is legally compliant.

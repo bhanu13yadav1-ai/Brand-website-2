@@ -1,4 +1,4 @@
-# BLACKED INNERWEAR — Fit Studio v0.7.0
+# BLACKED INNERWEAR — Fit Studio v0.8.0
 
 **Build:** static HTML + CSS + JavaScript  
 **Budget:** designed for ₹0; no AI API, no paid API, no npm install or build tool  
@@ -7,7 +7,7 @@
 ## What is included
 
 - All existing v0.6 files and features are retained; this release is additive. The original ten uploaded reference files remain unchanged.
-- Existing 37 catalog references/concepts remain selectable. This is a mixed catalog of BLACKED campaign visuals, owner-supplied concepts, and clearly labelled external-brand references; it is not 37 verified products for sale.
+- Existing 37 catalog references/concepts remain selectable; six additional user-supplied SYRN-branded references are included separately for inspiration, bringing the selection list to 43 entries. This mixed catalogue is not 43 verified products for sale. This is a mixed catalog of BLACKED campaign visuals, owner-supplied concepts, and clearly labelled external-brand references; it is not 37 verified products for sale.
 - The latest owner-supplied concept art in the recent uploads is already represented by its matching local reference assets. Duplicate visual variants are not artificially counted as separate physical products.
 - External model/product images were cropped from screenshots supplied by the owner to remove the mobile browser and store navigation. They remain external-brand inspiration only and are not BLACKED inventory, official collaboration, or direct product feeds. No external brand website is scraped, embedded, or linked.
 - P0 selected-image behavior: the Try-On canvas defaults to the exact selected item's `previewImage` when supplied, otherwise its own `image`. It does not fall back to a generic demo mannequin. The product summary retains the selected reference and shows a separate garment-detail view when available.
@@ -29,6 +29,31 @@
 5. Provide verified bra/cup/band, brief and bodysuit measurement charts before enabling actual size recommendations.
 6. Provide actual product prices, colour variants, sizes, stock, shipping, cancellation, hygiene returns/exchange and support details before checkout goes live. This remains a static frontend prototype with no real cart/order/payment backend, account system, review database or stock sync.
 7. Fit Passport and wishlist store only on the current device/browser; they do not sync across devices. Clearing browser storage may erase them.
+
+## v0.8.0 additions — Plus-One Club (prototype only)
+
+- Added six images from the owner's latest uploads to the external-brand reference-only group: `external-ref-syrn-skirting-garter-editorial.png`, `external-ref-syrn-own-the-night.png`, `external-ref-syrn-curves-confidence.png`, `external-ref-syrn-signature-lace.png`, `external-ref-syrn-midnight-allure.png`, and `external-ref-syrn-garter-back-full.png`.
+- These images are selectable as reference assets and appear in the local catalogue/try-on reference selector. They are not represented as BLACKED stock, there is no SYRN website link/embed, and rights for public commercial use must be confirmed.
+- Added a separate **Plus-One Club (18+)** concept for platonic, non-sexual public outings (coffee/conversation, event plus-one, museum/daytime city outing and public-venue dinner). It has no real provider profiles or profile photos.
+- The planner is deliberately a local UI demo. It collects no name, phone, ID, payment or exact address, sends no requests, stores no booking data, shows no price/availability, and does not claim that companions are verified or bookable. The submit button produces a text-only local preview.
+- Before any live service, implement real adult age/identity verification, provider vetting, safeguarding/moderation and block/report operations, communication and payment controls, cancellation/refund rules, privacy notices, and legal review. The prototype's checkbox is not age verification. Public meetups only are specified for the concept; no sexual services are offered.
+- Safety design was informed by current public guidance from Bumble on photo/ID verification, block/report, and meeting in a public place / sharing plans, and by MeitY's published DPDP Rules 2025. This prototype does not claim legal compliance. The National Cyber Crime Reporting Portal and India emergency/help numbers are listed for safety guidance only.
+
+## v0.8.0 static test notes
+
+- `node --check app.js`: passed.
+- HTML parsed; no duplicate IDs.
+- All static HTML image/script/CSS references and all JavaScript product `image`, `previewImage`, and `gallery` asset paths resolve in the package.
+- New companion form requires self-attestation of 18+, confirmation of non-sexual/public-meetup boundaries, and acknowledgement that the demo does not book or send a request. This is only a UX guardrail, not verified age control.
+- No actual booking API, payment, companion records, user account, external AI service or analytics was added.
+- Browser click-through testing is still needed on an actual phone/hosted preview before calling this production-ready.
+
+## Safety and research references for Plus-One Club
+
+- Bumble Support, “Our safety features” (updated March 3, 2026): https://support.bumble.com/hc/articles/28537051467293-Our-safety-features
+- Bumble Support, “Meeting a match in person” (updated September 18, 2025): https://support.bumble.com/hc/articles/28523315919005-Meeting-a-match-in-person
+- MeitY, Digital Personal Data Protection Rules 2025 (published November 14, 2025): https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa
+- National Cyber Crime Reporting Portal: https://www.cybercrime.gov.in/
 
 ## Run locally / publish to GitHub
 

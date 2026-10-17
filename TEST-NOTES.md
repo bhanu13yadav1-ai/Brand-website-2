@@ -1,4 +1,4 @@
-# BLACKED INNERWEAR Fit Studio v0.7.0 — validation notes
+# BLACKED INNERWEAR Fit Studio v0.8.0 — validation notes
 
 ## Static checks completed
 
@@ -51,3 +51,26 @@ A full automated headless-browser click-through run could not be completed in th
 - All image paths referenced by the JavaScript product manifest resolved to files in the package.
 - ZIP integrity and root-level website files are verified during final packaging.
 - Full browser click-through was attempted, but Chromium navigation to local file/localhost URLs is blocked by the execution environment (`ERR_BLOCKED_BY_ADMINISTRATOR`). A real mobile-device test remains necessary after upload.
+
+
+## v0.8.0 Plus-One Club checks
+
+- [x] Added as a separate section/nav item; non-sexual, platonic, 18+ concept only.
+- [x] The outing cards choose a form option and scroll to the planner.
+- [x] The planner requires all three consent/acknowledgment checkboxes and native form validity.
+- [x] The submit handler writes only a local preview message and does not send or store information.
+- [x] No fake companion names, profiles, photos, prices, availability or verified badges are used.
+- [x] Safety info includes public meeting, provider verification required before production, privacy and no off-platform payment notes.
+- [x] Six latest user-supplied SYRN-branded reference photos are copied unchanged and marked reference-only.
+- [ ] Real-browser/mobile end-to-end regression test remains recommended before deployment.
+
+
+## v0.8.0 package validation
+
+- `node --check app.js`: passed.
+- HTML parser: 99 IDs, no duplicate IDs; all static HTML image, script and stylesheet paths resolve.
+- Product manifest: 43 catalog reference entries; all 46 unique `image`, `previewImage` and gallery asset paths resolve.
+- Companion planner: section/nav, three experience cards, four outing types and the submit handler are present. The handler only updates a local preview message; it does not store form values or send a network request.
+- All six latest user-supplied SYRN-branded images are included and categorized as external design references.
+- Direct SYRN website URL/embed is not present in HTML or JavaScript. The only external help link in the new section points to India's official National Cyber Crime Reporting Portal.
+- Browser automation attempted using Playwright + system Chromium; navigation to the local preview was blocked by the environment (`ERR_BLOCKED_BY_ADMINISTRATOR`). Therefore, no successful full browser interaction test is claimed. After deployment, manually test the section on Android and re-check all Try-On product selections.

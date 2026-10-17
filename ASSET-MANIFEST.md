@@ -1,4 +1,4 @@
-# BLACKED INNERWEAR v0.7.0 — Asset manifest
+# BLACKED INNERWEAR v0.8.0 — Asset manifest
 
 This file documents the local image assets included in the prototype. Campaigns, concepts and external-brand inspiration images are **not confirmed sellable inventory**. No external store URL or embed is used in the website.
 
@@ -68,3 +68,20 @@ This file documents the local image assets included in the prototype. Campaigns,
 - `After Dark / Playful Nights Edit` is a curated section built from existing BLACKED concept assets: `owner-ref-bow-lace-collection.jpg`, `owner-ref-noir-halter-rose-demi.jpg`, `design-12-midnight-lace.png`, `design-13-scarlet-satin.png`, `owner-ref-curve-comfort.jpg`, and `design-14-ivory-bloom.png`. These cards are repeated visual shortcuts, not new SKU records.
 - No official Playboy logos, rabbit-head mark, or official Playboy assets are included. The concept is independent of Playboy and is labelled accordingly.
 - `1000197269.png` (the screenshot showing the old demo-silhouette issue) is intentionally not a catalog image. The issue screenshot is not product media.
+
+
+## Additional user-supplied external-brand reference images included in v0.8.0
+
+- `external-ref-syrn-skirting-garter-editorial.png` — 1000197400.png, full campaign/editorial reference
+- `external-ref-syrn-own-the-night.png` — 1000197401.png
+- `external-ref-syrn-curves-confidence.png` — 1000197402.png
+- `external-ref-syrn-signature-lace.png` — 1000197403.png
+- `external-ref-syrn-midnight-allure.png` — 1000197404.png
+- `external-ref-syrn-garter-back-full.png` — 1000197371.jpg, back-view reference
+
+Every one of these assets is labelled external-brand/design inspiration only. They are not BLACKED inventory, a collaboration, nor official product feed images. The website does not link to or embed the source website. Public commercial use still needs appropriate rights.
+
+## Plus-One Club assets and data
+
+- No real companion photos, names, profiles, provider listings or testimonials are bundled. The companion section uses abstract icons and activity cards to avoid fabricated identities.
+- The outing planner is a local prototype preview and has no booking/payment backend. It sends and stores no booking request.

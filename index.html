@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f6f0eb">
-  <meta name="description" content="Discover BLACKED INNERWEAR — thoughtful everyday pieces, a manual style preview studio, and a measurement-led size guide.">
-  <title>BLACKED INNERWEAR — Fit Studio v0.7.0</title>
+  <meta name="description" content="Discover BLACKED INNERWEAR — collection references, a private manual style studio, fit guidance, and an adult platonic companion experience concept.">
+  <title>BLACKED INNERWEAR — Fit Studio v0.8.0</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231c1819'/%3E%3Ctext x='50%25' y='55%25' font-size='37' text-anchor='middle' fill='%23f5b2c4' font-family='Georgia'%3EB%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
@@ -23,6 +23,7 @@
     <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
       <a href="#collection">Collection</a>
       <a href="#after-dark">After Dark</a>
+      <a href="#companion-club">Plus-One 18+</a>
       <a href="#studio">Try-on studio</a>
       <a href="#fit-guide">Find your size</a>
       <a href="#style-quiz">Style quiz</a>
@@ -71,7 +72,7 @@
         <p class="section-heading-note">Explore your 10 original references, added BLACKED campaign and concept artwork, and a separate group of external-brand reference images you supplied. Every item is individually labelled; references and concepts are not confirmed stock SKUs.</p>
       </div>
       <div class="filter-row" role="group" aria-label="Filter campaign and design references">
-        <button class="filter-chip is-active" data-filter="all" aria-pressed="true">All references <span data-filter-count>37</span></button>
+        <button class="filter-chip is-active" data-filter="all" aria-pressed="true">All references <span data-filter-count>43</span></button>
         <button class="filter-chip" data-filter="campaign" aria-pressed="false">Campaign &amp; movement <span data-filter-count>0</span></button>
         <button class="filter-chip" data-filter="lace" aria-pressed="false">Lace &amp; statement <span data-filter-count>0</span></button>
         <button class="filter-chip" data-filter="detail" aria-pressed="false">Product details <span data-filter-count>0</span></button>
@@ -258,6 +259,94 @@
       </div>
     </section>
 
+    <section class="companion-section section-space" id="companion-club" aria-labelledby="companionHeading">
+      <div class="section-wrap companion-wrap">
+        <div class="companion-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> THE PLUS-ONE CLUB · 18+</p>
+            <h2 id="companionHeading">Good company.<br><em>Your plans, your boundaries.</em></h2>
+          </div>
+          <div class="companion-intro">
+            <span class="companion-pill">PLATONIC · NON-SEXUAL · ADULTS ONLY</span>
+            <p>A concept for women who want a “boyfriend-for-a-day” style male companion for a public social outing—coffee, an event, a museum visit or dinner conversation. It is platonic companionship, not a promise of romance or a sexual service.</p>
+            <p class="companion-disclaimer">Prototype only: there are no real companion profiles, verified providers, prices, availability, payment or live bookings in this version. The form below creates a local preview only; it does not send or save a request.</p>
+          </div>
+        </div>
+
+        <div class="companion-experiences" aria-label="Companion outing concepts">
+          <article class="companion-experience">
+            <span class="companion-icon" aria-hidden="true">☕</span>
+            <p class="product-kicker">01 · LOW-PRESSURE</p>
+            <h3>Coffee &amp; Conversation</h3>
+            <p>A casual public meetup with friendly conversation and clear boundaries.</p>
+            <button type="button" class="button button-outline companion-pick" data-companion-pick="coffee">Choose experience</button>
+          </article>
+          <article class="companion-experience">
+            <span class="companion-icon" aria-hidden="true">✦</span>
+            <p class="product-kicker">02 · SOCIAL PLUS-ONE</p>
+            <h3>Event Companion</h3>
+            <p>A plus-one concept for a public exhibition, cultural event or group occasion.</p>
+            <button type="button" class="button button-outline companion-pick" data-companion-pick="event">Choose experience</button>
+          </article>
+          <article class="companion-experience">
+            <span class="companion-icon" aria-hidden="true">⌖</span>
+            <p class="product-kicker">03 · DAY OUT</p>
+            <h3>Museum or City Walk</h3>
+            <p>Explore a public place together, with your own transport and an easy exit plan.</p>
+            <button type="button" class="button button-outline companion-pick" data-companion-pick="city">Choose experience</button>
+          </article>
+        </div>
+
+        <div class="companion-planner-grid">
+          <div class="companion-safety-card">
+            <p class="eyebrow"><span class="eyebrow-line"></span> SAFETY FIRST</p>
+            <h3>A clear plan is part of the experience.</h3>
+            <ul>
+              <li>First meetings take place in public venues only; no private-home or remote-location bookings.</li>
+              <li>A real launch must verify every adult provider’s identity and age before their profile becomes bookable.</li>
+              <li>Keep communication and payments on a verified platform; never send deposits to an unknown person’s private account.</li>
+              <li>Tell a trusted person where you are going, and leave whenever you feel uncomfortable.</li>
+              <li>Live block/report, cancellation, refund and incident-response processes must exist before bookings are enabled.</li>
+            </ul>
+            <div class="companion-emergency"><strong>India safety resources</strong><span>Emergency: 112 · Women’s Helpline: 181 · Cyber financial fraud: 1930</span><a href="https://www.cybercrime.gov.in/" target="_blank" rel="noopener noreferrer">National Cyber Crime Reporting Portal ↗</a></div>
+          </div>
+
+          <div class="companion-form-card">
+            <p class="eyebrow"><span class="eyebrow-line"></span> PLAN A PUBLIC OUTING</p>
+            <h3>Preview a booking request</h3>
+            <p class="companion-form-intro">No name, phone number, ID, exact address or payment details are collected here.</p>
+            <form id="companionRequestForm">
+              <label class="companion-field" for="companionExperience"><span>What kind of outing?</span>
+                <select id="companionExperience" name="experience" required>
+                  <option value="coffee">Coffee &amp; conversation</option>
+                  <option value="event">Public event / exhibition</option>
+                  <option value="dinner">Dinner at a public venue</option>
+                  <option value="city">Museum / daytime city walk</option>
+                </select>
+              </label>
+              <label class="companion-field" for="companionDate"><span>Preferred date (optional)</span><input type="date" id="companionDate" name="date"></label>
+              <label class="companion-field" for="companionStyle"><span>Preferred company style</span>
+                <select id="companionStyle" name="style" required>
+                  <option value="easygoing">Easygoing conversation</option>
+                  <option value="outgoing">Friendly and outgoing</option>
+                  <option value="formal">Polished event plus-one</option>
+                  <option value="quiet">Quiet, low-pressure company</option>
+                </select>
+              </label>
+              <label class="companion-check"><input type="checkbox" id="companionAdultCheck" required><span>I confirm I am 18 or older. <small>This prototype checkbox is not formal age verification.</small></span></label>
+              <label class="companion-check"><input type="checkbox" id="companionBoundaryCheck" required><span>I understand this concept is strictly platonic and non-sexual, with public meetups only.</span></label>
+              <label class="companion-check"><input type="checkbox" id="companionDemoCheck" required><span>I understand this is a demo: there are no actual providers and no request will be sent or saved.</span></label>
+              <button class="button button-dark button-full" type="submit">Preview outing plan <span aria-hidden="true">→</span></button>
+              <p class="companion-note">Before any real launch, this service needs verified adult profiles, provider screening, consent and conduct rules, privacy safeguards, moderation, cancellation/refund terms, secure booking infrastructure and Indian legal review.</p>
+            </form>
+            <div class="companion-request-result" id="companionRequestResult" hidden aria-live="polite">
+              <span aria-hidden="true">✓</span><div><h4>Your outing preview is ready</h4><p id="companionRequestMessage"></p><small>No request was transmitted, stored or booked.</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="style-quiz-section section-wrap section-space" id="style-quiz">
       <div class="section-heading">
         <div><p class="eyebrow"><span class="eyebrow-line"></span> FIND YOUR STYLE</p><h2>A few choices.<br><em>Your kind of comfort.</em></h2></div>
@@ -440,6 +529,7 @@
     <section class="faq-section section-wrap section-space" id="faq">
       <div class="faq-title"><p class="eyebrow"><span class="eyebrow-line"></span> GOOD TO KNOW</p><h2>Clear answers.<br><em>Better choices.</em></h2></div>
       <div class="faq-list">
+        <details><summary>Is Plus-One Club live, and is it sexual? <span aria-hidden="true">+</span></summary><p>No. Plus-One Club is only a prototype concept for adult, platonic public outings. There are no real or verified providers, availability, payment or bookings, and the form sends or saves nothing. It does not offer sexual services. A real service would need appropriate adult verification, safety operations, privacy controls and legal review.</p></details>
         <details><summary>Can I select all available options in Try-On Studio? <span aria-hidden="true">+</span></summary><p>Yes. Pick any catalogued reference or concept. Each selection has its own image mapping. Product-only imagery appears only where an associated asset is provided; external-brand references stay labelled as inspiration and are not BLACKED inventory.</p></details>
         <details><summary>Why does Try-On show a product photo now?<span aria-hidden="true">+</span></summary><p>The canvas defaults to the exact selected reference image, so selecting a different reference changes the main preview. The illustration guide is separate and only becomes available after a personal photo is selected; it does not extract the garment from the campaign artwork.</p></details>
         <details><summary>Does the manual overlay show my actual fit?<span aria-hidden="true">+</span></summary><p>No. It lets you manually position a simple illustration over your own photo. It does not use the selected product image as a garment cut-out, change to match body shape, simulate fabric or determine if a product fits.</p></details>
@@ -460,9 +550,9 @@
     <div class="footer-main">
       <a class="brand-lockup footer-brand" href="#home" aria-label="BLACKED INNERWEAR home"><span class="brand-symbol" aria-hidden="true">B<span>♥</span></span><span class="brand-wordmark"><strong>BLACKED</strong><small>INNERWEAR</small></span></a>
       <p>Move together. Feel better.<br><span>A considered starting point for a more confident fit.</span></p>
-      <div class="footer-links"><a href="#collection">Collection</a><a href="#studio">Fit Studio</a><a href="#fit-guide">Size Finder</a><a href="#faq">FAQs</a></div>
+      <div class="footer-links"><a href="#collection">Collection</a><a href="#studio">Fit Studio</a><a href="#fit-guide">Size Finder</a><a href="#companion-club">Plus-One 18+</a><a href="#faq">FAQs</a></div>
     </div>
-    <div class="footer-bottom"><span>© <span id="year">2026</span> BLACKED INNERWEAR · PROTOTYPE v0.7.0</span><span>No AI · No external photo upload · No checkout connected</span><a href="#top">Back to top ↑</a></div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> BLACKED INNERWEAR · PROTOTYPE v0.8.0</span><span>No AI · No external photo upload · No checkout connected</span><a href="#top">Back to top ↑</a></div>
   </footer>
 
   <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
