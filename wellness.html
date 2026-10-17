@@ -4,199 +4,155 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0c0b12">
-  <meta name="description" content="BLACKED Wellness 18+ — a private, comfort-first guide to intimate wellness categories, product concepts, body-safe materials and care.">
-  <title>BLACKED Wellness 18+ — Explore What Feels Right</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231c1719'/%3E%3Ctext x='50%25' y='56%25' font-size='38' text-anchor='middle' fill='%23ff287f' font-family='Arial' font-weight='bold'%3EB%3C/text%3E%3C/svg%3E">
+  <meta name="description" content="BLACKED Wellness — a discreet, women-first wellness reference section with comfort-led product browsing and a private comfort finder.">
+  <title>BLACKED Wellness | Comfort, Tumhari Choice</title>
   <link rel="stylesheet" href="wellness.css">
   <script src="wellness.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="announcement"><span class="announcement-dot"></span> <b>18+ only</b> <span>·</span> Comfort first, always <span>·</span> Private browsing guide</div>
-
-  <header class="topbar" id="top">
-    <a class="brand" href="index.html" aria-label="BLACKED Innerwear home">
-      <span class="brand-mark" aria-hidden="true">B</span>
-      <span class="brand-text"><strong>BLACKED</strong><small>WELLNESS EDIT</small></span>
-    </a>
-    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="topNav" aria-label="Open navigation">☰</button>
-    <nav class="topnav" id="topNav" aria-label="Wellness navigation">
+  <div class="top-ribbon"><span class="ribbon-dot"></span> COMFORT FIRST <span class="ribbon-sep">✦</span> PRIVATE WELLNESS EDIT <span class="ribbon-sep">✦</span> 18+ ONLY</div>
+  <header class="header" id="top">
+    <button class="icon-button menu-button" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav"><span class="hamburger"><i></i><i></i><i></i></span></button>
+    <a class="brand-logo" href="#top" aria-label="BLACKED Wellness home"><span class="brand-main">BLACKED</span><small>W E L L N E S S</small></a>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
       <a href="#categories">Categories</a>
-      <a href="#shop">Explore items</a>
-      <a href="#comfort-finder">Comfort finder</a>
-      <a href="#care">Safety &amp; care</a>
+      <a href="#picks">Wellness Picks</a>
+      <a href="#comfort-finder">Comfort Finder</a>
+      <a href="#care">Care &amp; Privacy</a>
     </nav>
-    <div class="top-actions">
-      <a class="home-link" href="index.html">← Innerwear</a>
-      <a class="top-cta" href="#comfort-finder">Find your comfort ↗</a>
+    <div class="header-actions">
+      <button class="icon-button saved-filter-button" id="savedOnlyToggle" aria-controls="savedDrawer" aria-expanded="false" aria-label="Open saved picks" title="My saved picks"><span aria-hidden="true">♡</span><b id="savedCount">0</b></button>
+      <a class="head-cta" href="#picks">Explore <span aria-hidden="true">↗</span></a>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero wrap" id="home">
+    <section class="hero page-wrap" aria-labelledby="heroTitle">
       <div class="hero-copy">
-        <p class="eyebrow">THE BLACKED WELLNESS EDIT · 18+</p>
-        <h1>Explore what<br><em>feels right.</em></h1>
-        <p>A private, judgement-free place to learn about intimate wellness. Browse by comfort, curiosity and personal preference — never by pressure.</p>
+        <p class="eyebrow"><span></span> BLACKED WELLNESS · 18+</p>
+        <h1 id="heroTitle">Self-care ka<br><em>apna style.</em></h1>
+        <p class="hero-intro">Comfort, confidence aur apni choice — sab tumhare terms par. Explore discreet wellness picks, simple details aur no-pressure guidance.</p>
         <div class="hero-actions">
-          <a class="button" href="#categories">Explore categories <span aria-hidden="true">↘</span></a>
-          <a class="button button-secondary" href="#comfort-finder">Take the comfort finder</a>
+          <a class="button button-pink" href="#picks">Picks explore karo <span aria-hidden="true">→</span></a>
+          <a class="button button-quiet" href="#comfort-finder">Mera comfort find karo</a>
         </div>
-        <div class="hero-trust"><span class="trust-dot" aria-hidden="true">♡</span><span><strong>Your comfort sets the pace.</strong><br>Optional preferences stay in this browser session.</span></div>
+        <div class="hero-assurance"><span class="assurance-icon" aria-hidden="true">♡</span><span><strong>Yahan comfort first hai</strong><small>Clear choices · No judgement · No fake claims</small></span></div>
       </div>
-      <div class="hero-visual" aria-label="Abstract product concept display">
-        <div class="hero-product-stage">
-          <span class="stage-pill">WELLNESS, YOUR WAY</span>
-          <div class="stage-orb" aria-hidden="true"></div>
-          <div class="stage-device" aria-hidden="true"></div>
-          <div class="floating-tag">COMFORT FIRST<span>Explore at your pace</span></div>
-          <div class="stage-copy"><strong>The Wellness Edit</strong><span>PRODUCT CONCEPTS · NOT LIVE STOCK</span></div>
-        </div>
+      <div class="hero-art" aria-label="Discreet wellness product reference">
+        <div class="hero-art-bg"></div>
+        <div class="hero-photo"><span class="photo-badge">WELLNESS EDIT / 01</span><img src="assets/app-comfort-massager.jpg" alt="Pink personal wellness device and companion app shown in a supplied reference screenshot"><div class="photo-caption"><strong>Comfort, on your terms.</strong><small>WOMEN'S WELLNESS · STYLE REFERENCE</small></div></div>
+        <span class="floating-note note-one">♡ <small>YOUR CHOICE</small></span>
+        <span class="floating-note note-two">SOFT <small>· DISCREET · SIMPLE</small></span>
       </div>
     </section>
 
-    <section class="value-strip" aria-label="Our approach">
-      <div class="wrap value-grid">
-        <div class="value-item"><span class="value-icon" aria-hidden="true">♡</span><span><strong>Comfort-led choices</strong><small>No pressure, no judgement</small></span></div>
-        <div class="value-item"><span class="value-icon" aria-hidden="true">✳</span><span><strong>Material awareness</strong><small>Know what to check</small></span></div>
-        <div class="value-item"><span class="value-icon" aria-hidden="true">⌁</span><span><strong>Beginner-friendly</strong><small>Clear, simple guidance</small></span></div>
-        <div class="value-item"><span class="value-icon" aria-hidden="true">▣</span><span><strong>Privacy-minded</strong><small>No form data is sent</small></span></div>
+    <section class="trust-strip" aria-label="Section values">
+      <div class="page-wrap trust-grid">
+        <div class="trust-item"><span>18+</span><strong>Adults only</strong><small>Age-aware browsing</small></div>
+        <div class="trust-item"><span>♡</span><strong>Comfort-led</strong><small>Choose at your pace</small></div>
+        <div class="trust-item"><span>⌕</span><strong>Easy discovery</strong><small>Search &amp; filter picks</small></div>
+        <div class="trust-item"><span>▣</span><strong>Private by design</strong><small>Saved list stays on device</small></div>
       </div>
     </section>
 
-    <section class="section wrap" id="categories">
-      <div class="section-head">
-        <div><p class="eyebrow">BROWSE YOUR WAY</p><h2>Find your <em>category.</em></h2></div>
-        <p>Start with the kind of experience or guidance you are looking for. Tap a category to filter the concept cards below.</p>
+    <section class="page-wrap section-block" id="categories">
+      <div class="section-title">
+        <div><p class="eyebrow"><span></span> APNI VIBE CHUNO</p><h2>Browse by <em>comfort.</em></h2></div>
+        <p>Jo tumhare liye sahi feel ho, wahi choose karo. Category tap karte hi picks filter ho jayenge.</p>
       </div>
-      <div class="category-rail" role="group" aria-label="Wellness categories">
-        <button class="category is-active" data-category-filter="all" aria-pressed="true"><span class="category-art art-cat-pink"><span aria-hidden="true">✧</span></span><strong>All concepts</strong><small>Browse everything</small></button>
-        <button class="category" data-category-filter="massagers" aria-pressed="false"><span class="category-art art-cat-purple"><span aria-hidden="true">〰</span></span><strong>Massagers</strong><small>Personal comfort</small></button>
-        <button class="category" data-category-filter="couples" aria-pressed="false"><span class="category-art art-cat-rose"><span aria-hidden="true">♡</span></span><strong>For couples</strong><small>Shared discovery</small></button>
-        <button class="category" data-category-filter="sensory" aria-pressed="false"><span class="category-art art-cat-blue"><span aria-hidden="true">✺</span></span><strong>Sensory play</strong><small>Set your boundaries</small></button>
-        <button class="category" data-category-filter="smart" aria-pressed="false"><span class="category-art art-cat-violet"><span aria-hidden="true">⌘</span></span><strong>Smart &amp; remote</strong><small>Controls to compare</small></button>
-        <button class="category" data-category-filter="care" aria-pressed="false"><span class="category-art art-cat-gold"><span aria-hidden="true">✿</span></span><strong>Care essentials</strong><small>Materials &amp; cleaning</small></button>
+      <div class="category-rail" role="group" aria-label="Filter wellness categories">
+        <button class="category is-active" data-category="all" aria-pressed="true"><span class="category-orb orb-all"><i>✧</i></span><strong>All picks</strong><small>Sab options</small></button>
+        <button class="category" data-category="beginner" aria-pressed="false"><span class="category-orb orb-beginner"><i>♡</i></span><strong>Beginner-friendly</strong><small>Easy start</small></button>
+        <button class="category" data-category="compact" aria-pressed="false"><span class="category-orb orb-compact"><i>◌</i></span><strong>Compact styles</strong><small>Small &amp; simple</small></button>
+        <button class="category" data-category="app" aria-pressed="false"><span class="category-orb orb-app"><i>⌁</i></span><strong>App-enabled</strong><small>Smart controls</small></button>
+        <button class="category" data-category="wand" aria-pressed="false"><span class="category-orb orb-wand"><i>✳</i></span><strong>Body wands</strong><small>Relax &amp; unwind</small></button>
+        <button class="category" data-category="couples" aria-pressed="false"><span class="category-orb orb-couples"><i>♡</i></span><strong>Couples' care</strong><small>Together, at ease</small></button>
       </div>
-      <div class="promo-pills" aria-label="Helpful shopping principles">
-        <div class="promo-pill"><span aria-hidden="true">♡</span><strong>Choose the comfort level that suits you</strong></div>
-        <div class="promo-pill"><span aria-hidden="true">✳</span><strong>Check materials, cleaning and controls</strong></div>
-        <div class="promo-pill"><span aria-hidden="true">▣</span><strong>No checkout or real stock is connected yet</strong></div>
+      <div class="mini-trust-row">
+        <div><span class="mini-trust-icon">✦</span><strong>Respectful picks</strong><small>No graphic product visuals</small></div>
+        <div><span class="mini-trust-icon">⌁</span><strong>Simple browsing</strong><small>Details in Hinglish</small></div>
+        <div><span class="mini-trust-icon">♡</span><strong>Your pace, your choice</strong><small>No pressure to buy</small></div>
       </div>
     </section>
 
-    <section class="section wrap" id="shop">
-      <div class="section-head">
-        <div><p class="eyebrow">THE WELLNESS COLLECTION</p><h2>Concepts worth <em>exploring.</em></h2></div>
-        <p>These are prototype display cards to shape the future shop experience. They are not verified products for sale, and no price, rating or stock claim is being made.</p>
-      </div>
-      <div class="product-toolbar">
-        <div class="filter-list" role="group" aria-label="Filter product concepts">
-          <button class="filter-button is-active" data-product-filter="all" aria-pressed="true">All</button>
-          <button class="filter-button" data-product-filter="massagers" aria-pressed="false">Massagers</button>
-          <button class="filter-button" data-product-filter="couples" aria-pressed="false">Couples</button>
-          <button class="filter-button" data-product-filter="sensory" aria-pressed="false">Sensory</button>
-          <button class="filter-button" data-product-filter="smart" aria-pressed="false">Smart</button>
-          <button class="filter-button" data-product-filter="care" aria-pressed="false">Care</button>
+    <section class="section-block picks-section" id="picks">
+      <div class="page-wrap">
+        <div class="section-title picks-title">
+          <div><p class="eyebrow"><span></span> CURATED REFERENCE LIST</p><h2>Wellness <em>picks.</em></h2></div>
+          <p>Screenshot se crop ki gayi non-graphic product images. Prices source screenshots ke reference hain — purchase se pehle verify karna.</p>
         </div>
-        <label class="search-wrap"><span class="sr-only">Search concept cards</span><input id="productSearch" type="search" placeholder="Search concepts…" autocomplete="off"></label>
+        <div class="product-toolbar">
+          <div class="filter-chips" role="group" aria-label="Filter products">
+            <button class="filter-chip is-active" data-filter="all" aria-pressed="true">All picks</button>
+            <button class="filter-chip" data-filter="beginner" aria-pressed="false">Beginner</button>
+            <button class="filter-chip" data-filter="compact" aria-pressed="false">Compact</button>
+            <button class="filter-chip" data-filter="app" aria-pressed="false">App-enabled</button>
+            <button class="filter-chip" data-filter="wand" aria-pressed="false">Wands</button>
+          </div>
+          <div class="search-sort">
+            <label class="search-box"><span aria-hidden="true">⌕</span><input id="productSearch" type="search" placeholder="Product search karo…" autocomplete="off" aria-label="Search products"></label>
+            <select id="sortProducts" aria-label="Sort product references"><option value="featured">Featured</option><option value="price-asc">Reference price: low to high</option><option value="price-desc">Reference price: high to low</option><option value="name">Name: A to Z</option></select>
+          </div>
+        </div>
+        <div class="results-line"><span id="resultCount" aria-live="polite">4 reference picks</span><button class="clear-filters" id="clearFilters" type="button">Reset filters ↻</button></div>
+        <div class="product-grid" id="productGrid">
+          <article class="product-card" data-id="starter" data-name="Beginner Comfort Set" data-cats="beginner compact" data-price="589" data-featured="1" data-img="assets/starter-comfort.jpg" data-short="Compact pink personal-wellness set" data-detail="A compact pink device and remote-style accessory shown in your supplied screenshot. Visual reference only; exact item contents need checking.">
+            <button class="product-image" data-open="starter" aria-label="View Beginner Comfort Set details"><span class="product-flag">BEGINNER PICK</span><img src="assets/starter-comfort.jpg" alt="Cropped product reference showing a pink compact wellness device and small accessory" loading="lazy"><span class="image-zoom" aria-hidden="true">↗</span></button>
+            <div class="card-content"><div class="card-meta"><span>01 / COMPACT CARE</span><button class="save-button" data-save="starter" aria-pressed="false" aria-label="Save Beginner Comfort Set">♡</button></div><h3>Beginner Comfort Set</h3><p>New ho? Simple controls aur compact form ke liye reference pick.</p><div class="price-row"><strong>₹589*</strong><del>₹1,500</del><span class="discount">61% OFF*</span></div><div class="card-bottom"><span class="price-caption">Screenshot reference</span><button class="card-view" data-open="starter">View details <span>→</span></button></div><label class="compare-label"><input type="checkbox" data-compare="starter"> Compare pick</label></div>
+          </article>
+          <article class="product-card" data-id="mini" data-name="Mini Wellness Duo" data-cats="beginner compact" data-price="799" data-featured="2" data-img="assets/mini-wellness-duo.jpg" data-short="Two compact pastel wellness devices" data-detail="Two small pastel devices shown in the screenshot you provided. Size notes are part of the original visual and should be confirmed from the seller before ordering.">
+            <button class="product-image" data-open="mini" aria-label="View Mini Wellness Duo details"><span class="product-flag flag-purple">COMPACT STYLE</span><img src="assets/mini-wellness-duo.jpg" alt="Cropped reference showing two small pastel-colored compact wellness devices" loading="lazy"><span class="image-zoom" aria-hidden="true">↗</span></button>
+            <div class="card-content"><div class="card-meta"><span>02 / MINI COLLECTION</span><button class="save-button" data-save="mini" aria-pressed="false" aria-label="Save Mini Wellness Duo">♡</button></div><h3>Mini Wellness Duo</h3><p>Small-size options explore karo, without overcomplicating the choice.</p><div class="price-row"><strong>₹799*</strong><del>₹6,749</del><span class="discount">88% OFF*</span></div><div class="card-bottom"><span class="price-caption">Screenshot reference</span><button class="card-view" data-open="mini">View details <span>→</span></button></div><label class="compare-label"><input type="checkbox" data-compare="mini"> Compare pick</label></div>
+          </article>
+          <article class="product-card" data-id="app" data-name="App-Linked Wellness" data-cats="app couples" data-price="2068" data-featured="3" data-img="assets/app-comfort-massager.jpg" data-short="Pink device with a companion control app shown" data-detail="The provided screenshot shows a pink device beside a phone interface. App compatibility, supported phone models, safety features and seller authenticity are not confirmed.">
+            <button class="product-image" data-open="app" aria-label="View App-Linked Wellness details"><span class="product-flag flag-purple">SMART STYLE</span><img src="assets/app-comfort-massager.jpg" alt="Cropped product reference showing a pink wellness device beside a smartphone control interface" loading="lazy"><span class="image-zoom" aria-hidden="true">↗</span></button>
+            <div class="card-content"><div class="card-meta"><span>03 / SMART CONTROLS</span><button class="save-button" data-save="app" aria-pressed="false" aria-label="Save App-Linked Wellness">♡</button></div><h3>App-Linked Wellness</h3><p>Smart-control look pasand hai? Pehle app support aur privacy verify karo.</p><div class="price-row"><strong>₹2,068*</strong><del>₹3,999</del><span class="discount">48% OFF*</span></div><div class="card-bottom"><span class="price-caption">Screenshot reference</span><button class="card-view" data-open="app">View details <span>→</span></button></div><label class="compare-label"><input type="checkbox" data-compare="app"> Compare pick</label></div>
+          </article>
+          <article class="product-card" data-id="wand" data-name="Everyday Wellness Wand" data-cats="wand beginner" data-price="533" data-featured="4" data-img="assets/everyday-wellness-wand.jpg" data-short="Handheld black body-wand reference" data-detail="A black handheld wand-style product cropped from your supplied screenshot. Motor strength, material, charging type, warranty and waterproof rating are not verified.">
+            <button class="product-image" data-open="wand" aria-label="View Everyday Wellness Wand details"><span class="product-flag">WIND-DOWN PICK</span><img src="assets/everyday-wellness-wand.jpg" alt="Cropped reference showing a black handheld massager wand on a plain white background" loading="lazy"><span class="image-zoom" aria-hidden="true">↗</span></button>
+            <div class="card-content"><div class="card-meta"><span>04 / HANDHELD CARE</span><button class="save-button" data-save="wand" aria-pressed="false" aria-label="Save Everyday Wellness Wand">♡</button></div><h3>Everyday Wellness Wand</h3><p>Handheld design reference for a simple wind-down routine.</p><div class="price-row"><strong>₹533*</strong><del>₹1,499</del><span class="discount">64% OFF*</span></div><div class="card-bottom"><span class="price-caption">Screenshot reference</span><button class="card-view" data-open="wand">View details <span>→</span></button></div><label class="compare-label"><input type="checkbox" data-compare="wand"> Compare pick</label></div>
+          </article>
+        </div>
+        <div class="no-results" id="noResults" hidden><strong>Koi pick nahi mili.</strong><br>Search ya filters change karke try karo.</div>
+        <p class="catalog-disclaimer"><strong>*Important:</strong> Ye prices, crossed-out prices aur discounts tumhare screenshots se liye gaye references hain, live offers nahi. Product images user-supplied store screenshots se crop hui hain. Public sale se pehle exact SKU, current price, stock, seller details aur image-use permission verify karna. Is page par explicit/anatomical product visuals include nahi kiye gaye.</p>
       </div>
-      <p class="result-count" id="resultCount" aria-live="polite">6 concept cards</p>
-      <div class="product-grid" id="productGrid">
-        <article class="product-card" data-category="massagers" data-name="Glow Mini" data-description="A compact, beginner-friendly massager concept. Compare shape, control simplicity, material details and cleaning instructions before choosing a real product." data-focus="Beginner-friendly personal wellness" data-material="Material not confirmed — ask for verified specifications before purchase.">
-          <div class="product-visual art-mini"><span class="visual-kicker">CONCEPT 01</span><span class="preview-badge">PREVIEW</span><div class="device" aria-hidden="true"></div><span class="visual-caption"><span>COMPACT</span><span>WELLNESS EDIT</span></span></div>
-          <div class="product-meta"><div><p class="product-kicker">MASSAGERS · EASY START</p><h3>Glow Mini</h3></div><button class="save-button" type="button" data-save aria-label="Save Glow Mini concept" aria-pressed="false">♡</button></div>
-          <p class="product-desc">Small-form concept with a simple-control-first design direction.</p>
-          <div class="product-foot"><span class="price-pending">Price &amp; specs: not set</span><button class="card-action" type="button" data-open-product>Explore details ↗</button></div>
-        </article>
-        <article class="product-card" data-category="massagers" data-name="Sculpt Wand" data-description="A wand-style massager concept. For any real item, check its intended use, intensity settings, grip, sound information, material and care guide." data-focus="External massage and relaxation" data-material="Material not confirmed — verify the product listing and care instructions.">
-          <div class="product-visual art-wand"><span class="visual-kicker">CONCEPT 02</span><span class="preview-badge">PREVIEW</span><div class="device" aria-hidden="true"></div><span class="visual-caption"><span>ERGONOMIC IDEA</span><span>WELLNESS EDIT</span></span></div>
-          <div class="product-meta"><div><p class="product-kicker">MASSAGERS · MULTI-SETTING</p><h3>Sculpt Wand</h3></div><button class="save-button" type="button" data-save aria-label="Save Sculpt Wand concept" aria-pressed="false">♡</button></div>
-          <p class="product-desc">A larger-handle concept for shoppers comparing grip and control options.</p>
-          <div class="product-foot"><span class="price-pending">Price &amp; specs: not set</span><button class="card-action" type="button" data-open-product>Explore details ↗</button></div>
-        </article>
-        <article class="product-card" data-category="couples" data-name="Halo Duo" data-description="A couples wellness concept. Before buying a real item, discuss boundaries and preferences openly and confirm fit, material, cleaning and control details together." data-focus="Shared discovery and communication" data-material="Material not confirmed — check both partners' comfort and product guidance.">
-          <div class="product-visual art-couples"><span class="visual-kicker">CONCEPT 03</span><span class="preview-badge">PREVIEW</span><div class="device" aria-hidden="true"></div><span class="visual-caption"><span>FOR TWO</span><span>CONSENT FIRST</span></span></div>
-          <div class="product-meta"><div><p class="product-kicker">COUPLES · CONNECTION</p><h3>Halo Duo</h3></div><button class="save-button" type="button" data-save aria-label="Save Halo Duo concept" aria-pressed="false">♡</button></div>
-          <p class="product-desc">A shared-exploration concept built around communication and comfort.</p>
-          <div class="product-foot"><span class="price-pending">Price &amp; specs: not set</span><button class="card-action" type="button" data-open-product>Explore details ↗</button></div>
-        </article>
-        <article class="product-card" data-category="smart" data-name="Flex Remote" data-description="A remote-control concept for comparing button layout and ease of use. A real listing should disclose connectivity, compatibility, security and how controls work." data-focus="Simple controls and remote operation" data-material="Material and connectivity details are not confirmed.">
-          <div class="product-visual art-remote"><span class="visual-kicker">CONCEPT 04</span><span class="preview-badge">PREVIEW</span><div class="device" aria-hidden="true"><b></b></div><span class="visual-caption"><span>CONTROL OPTIONS</span><span>COMPARE FIRST</span></span></div>
-          <div class="product-meta"><div><p class="product-kicker">SMART · REMOTE</p><h3>Flex Remote</h3></div><button class="save-button" type="button" data-save aria-label="Save Flex Remote concept" aria-pressed="false">♡</button></div>
-          <p class="product-desc">A control-led concept for shoppers who prefer a clear, simple interface.</p>
-          <div class="product-foot"><span class="price-pending">Price &amp; specs: not set</span><button class="card-action" type="button" data-open-product>Explore details ↗</button></div>
-        </article>
-        <article class="product-card" data-category="sensory" data-name="Soft Touch Set" data-description="A sensory-play accessories concept. Agree on boundaries, a pause/stop signal and aftercare before trying anything with a partner. Never use a product in a way it was not designed for." data-focus="Gentle sensory exploration and clear boundaries" data-material="Materials vary by item and are not confirmed for this concept.">
-          <div class="product-visual art-kit"><span class="visual-kicker">CONCEPT 05</span><span class="preview-badge">PREVIEW</span><div class="device" aria-hidden="true"></div><span class="visual-caption"><span>SENSORY PLAY</span><span>BOUNDARIES FIRST</span></span></div>
-          <div class="product-meta"><div><p class="product-kicker">SENSORY · PLAYFUL</p><h3>Soft Touch Set</h3></div><button class="save-button" type="button" data-save aria-label="Save Soft Touch Set concept" aria-pressed="false">♡</button></div>
-          <p class="product-desc">An accessories concept with communication and personal limits at the centre.</p>
-          <div class="product-foot"><span class="price-pending">Price &amp; specs: not set</span><button class="card-action" type="button" data-open-product>Explore details ↗</button></div>
-        </article>
-        <article class="product-card" data-category="care" data-name="Care Ritual Kit" data-description="A care-essentials concept. Check compatibility between the material and any lubricant or cleaner; follow the actual manufacturer's directions and allow products to dry fully before storage." data-focus="Cleaning, care and storage" data-material="This is a concept only. Compatibility and included items are not confirmed.">
-          <div class="product-visual art-care"><span class="visual-kicker">CONCEPT 06</span><span class="preview-badge">PREVIEW</span><div class="device" aria-hidden="true"></div><span class="visual-caption"><span>CARE ESSENTIALS</span><span>READ THE LABEL</span></span></div>
-          <div class="product-meta"><div><p class="product-kicker">CARE · MATERIAL GUIDE</p><h3>Care Ritual Kit</h3></div><button class="save-button" type="button" data-save aria-label="Save Care Ritual Kit concept" aria-pressed="false">♡</button></div>
-          <p class="product-desc">A care-focused concept for comparing cleaning and storage guidance.</p>
-          <div class="product-foot"><span class="price-pending">Price &amp; specs: not set</span><button class="card-action" type="button" data-open-product>Explore details ↗</button></div>
-        </article>
-        <div class="no-results" id="noResults" hidden>No concepts match that search. Try another word or category.</div>
-      </div>
-      <div class="catalog-note"><strong>Prototype notice:</strong> concept names and artwork are placeholders. This page has no real inventory, prices, verified ratings, basket, checkout, payment or order system. Replace preview cards with BLACKED-owned or properly licensed product photography and verified specifications before selling.</div>
     </section>
 
-    <section class="section finder" id="comfort-finder">
-      <div class="wrap finder-grid">
-        <div class="finder-copy">
-          <p class="eyebrow">YOUR OPTIONAL GUIDE</p>
-          <h2>Start with <em>comfort.</em></h2>
-          <p>Answer a few optional shopping-preference questions to get a general browsing checklist. You do not need to share past experiences, body measurements, photos or identifying information.</p>
-          <div class="privacy-note"><strong>Privacy note:</strong> answers are used only to display a suggestion in this page. They are not uploaded, saved to an account or sent to BLACKED.</div>
-        </div>
+    <section class="finder-section section-block" id="comfort-finder">
+      <div class="page-wrap finder-grid">
+        <div class="finder-copy"><p class="eyebrow"><span></span> QUICK COMFORT FINDER</p><h2>Tumhari choice.<br><em>Tumhara comfort.</em></h2><p>Bas kuch simple options select karo. Finder relevant reference picks dikhayega — yeh medical advice nahi aur actual fit ya suitability guarantee nahi karta.</p><div class="finder-promise"><span>♡</span><div><strong>No awkward questions.</strong><small>Personal history, body photos ya private details nahi poochhe jaate.</small></div></div></div>
         <form class="finder-form" id="comfortForm">
-          <div class="form-intro"><h3>Comfort finder</h3><span>OPTIONAL · ON-DEVICE</span></div>
-          <div class="field"><label for="experience">1. Which best describes your shopping stage?</label><select id="experience" name="experience"><option value="new">I'm new and want something simple</option><option value="exploring">I'm comparing a few options</option><option value="specific">I know what features I want</option></select></div>
-          <fieldset class="field" style="border:0;padding:0;margin-left:0;margin-right:0"><legend>2. What would you like to focus on?</legend><div class="choice-row">
-            <label class="choice"><input type="radio" name="goal" value="relax" checked><span>Relaxation</span></label>
-            <label class="choice"><input type="radio" name="goal" value="couples"><span>Couples</span></label>
-            <label class="choice"><input type="radio" name="goal" value="sensory"><span>Sensory play</span></label>
-          </div></fieldset>
-          <div class="field"><label for="deviceSize">3. Preferred product size (optional)</label><select id="deviceSize" name="deviceSize"><option value="compact">Compact and easy to handle</option><option value="standard">Mid-size</option><option value="larger">Larger form factor</option><option value="unsure">I'm not sure yet</option></select></div>
-          <div class="field"><label for="material">4. Material information you'd like to check</label><select id="material" name="material"><option value="silicone">Body-safe silicone options</option><option value="hard">Smooth, hard-body materials</option><option value="compare">Help me compare materials</option><option value="unsure">Not sure yet</option></select></div>
-          <button class="button" type="submit">Show my browsing guide ↗</button>
-          <div class="guide-result" id="guideResult" aria-live="polite" role="status"></div>
+          <div class="finder-form-head"><div><span>STEP 1–3</span><h3>Apna comfort choose karo</h3></div><span class="form-note">Private demo</span></div>
+          <fieldset class="field-group"><legend>1. Tumhari priority kya hai?</legend><div class="option-grid"><label class="choice"><input type="radio" name="goal" value="beginner" checked><span>Easy start</span></label><label class="choice"><input type="radio" name="goal" value="wand"><span>Relax &amp; unwind</span></label><label class="choice"><input type="radio" name="goal" value="couples"><span>Couples' comfort</span></label></div></fieldset>
+          <fieldset class="field-group"><legend>2. Kaunsa form pasand hai?</legend><div class="option-grid"><label class="choice"><input type="radio" name="form" value="compact" checked><span>Compact</span></label><label class="choice"><input type="radio" name="form" value="wand"><span>Handheld</span></label><label class="choice"><input type="radio" name="form" value="app"><span>Smart / app</span></label></div></fieldset>
+          <fieldset class="field-group"><legend>3. Tum first-time explore kar rahe ho?</legend><div class="option-grid two"><label class="choice"><input type="radio" name="experience" value="yes" checked><span>Haan, beginner hoon</span></label><label class="choice"><input type="radio" name="experience" value="no"><span>Nahi, explore kar chuki/kar chuka hoon</span></label></div></fieldset>
+          <button class="button button-pink finder-submit" type="submit">Mere picks suggest karo <span>→</span></button>
+          <div class="finder-result" id="finderResult" hidden aria-live="polite"></div>
         </form>
       </div>
     </section>
 
-    <section class="section wrap care-section" id="care">
-      <div class="section-head care-head"><div><p class="eyebrow">BETTER INFORMED, BETTER CHOICES</p><h2>Details worth <em>checking.</em></h2></div><p>These general reminders help make the future catalogue more useful. Follow the instructions provided for each real product and seek professional advice for specific health concerns.</p></div>
+    <section class="page-wrap section-block care-section" id="care">
+      <div class="section-title"><div><p class="eyebrow"><span></span> THODA DHYAAN BHI</p><h2>Comfort aur care, <em>saath-saath.</em></h2></div><p>Product choose karne se pehle basic checks kar lena. Koi bhi option lena zaroori nahi — comfort comes first.</p></div>
       <div class="care-grid">
-        <article class="care-card"><span class="care-icon" aria-hidden="true">✳</span><h3>Materials first</h3><p>Look for clear material disclosures and reliable manufacturer information. Avoid items with unknown coatings or vague material descriptions.</p></article>
-        <article class="care-card"><span class="care-icon" aria-hidden="true">⌁</span><h3>Cleaning &amp; storage</h3><p>Check whether a product is waterproof or splash-resistant rather than assuming. Use compatible cleaners and follow the maker's storage instructions.</p></article>
-        <article class="care-card"><span class="care-icon" aria-hidden="true">♡</span><h3>Consent &amp; boundaries</h3><p>With a partner, discuss comfort, boundaries and a clear pause/stop signal. Either person can change their mind at any time.</p></article>
+        <article class="care-card"><span class="care-icon">♡</span><h3>Body ki suno</h3><p>Discomfort, irritation ya pain ho to use stop karo. Product instructions aur material compatibility check karo.</p></article>
+        <article class="care-card"><span class="care-icon">⌁</span><h3>Material &amp; cleaning</h3><p>Actual material, cleaning method, charging aur waterproof rating seller/manufacturer se verify karo; assume mat karo.</p></article>
+        <article class="care-card"><span class="care-icon">▣</span><h3>Privacy ka dhyaan</h3><p>Saved picks isi browser ke local storage mein rehte hain. Shared phone use karte ho to saved list clear kar sakte ho.</p></article>
       </div>
     </section>
 
-    <section class="wrap final-cta">
-      <div><h2>Curiosity without pressure.</h2><p>Explore, compare and decide only when it feels right for you.</p></div>
-      <a class="button" href="#categories">Browse categories ↗</a>
-    </section>
+    <section class="page-wrap bottom-cta"><div><p class="eyebrow"><span></span> TAKE YOUR TIME</p><h2>Explore calmly.<br><em>Choose confidently.</em></h2><p>Koi rush nahi, koi pressure nahi. Pehle details samjho, phir decide karo.</p></div><a class="button button-pink" href="#picks">Back to wellness picks ↑</a></section>
   </main>
 
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">B</span><span class="brand-text"><strong>BLACKED</strong><small>WELLNESS EDIT</small></span></a></div>
-      <nav aria-label="Footer navigation"><a href="index.html">Innerwear home</a><a href="#categories">Categories</a><a href="#comfort-finder">Comfort finder</a><a href="#care">Safety &amp; care</a></nav>
-    </div>
-    <div class="wrap fine-print">18+ self-attestation only; this is not identity verification. This is a static concept experience, not a live shop or medical service. No form responses are transmitted or stored by this page. © <span id="year">2026</span> BLACKED INNERWEAR.</div>
-  </footer>
+  <footer class="footer"><div class="page-wrap footer-row"><a class="brand-logo footer-logo" href="#top"><span class="brand-main">BLACKED</span><small>W E L L N E S S</small></a><div><p>Made for respectful, comfort-led browsing.</p><small>Prototype section · No checkout connected · Product references only</small></div><nav><a href="#categories">Categories</a><a href="#comfort-finder">Comfort Finder</a><a href="#care">Care &amp; Privacy</a><a href="#top">Back to top ↑</a></nav></div><div class="page-wrap footnote">This is an independent BLACKED INNERWEAR website section. Screenshot crops are supplied for design reference and do not prove inventory, brand partnership or current pricing. Verify product details and image rights before commercial launch.</div></footer>
 
-  <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
-    <div class="dialog-top"><div><p class="product-kicker" id="dialogKicker">WELLNESS CONCEPT</p><h2 id="dialogTitle">Product concept</h2></div><button class="dialog-close" id="dialogClose" type="button" aria-label="Close product details">×</button></div>
-    <div class="dialog-body"><p id="dialogDescription"></p><p><strong>Shopping focus:</strong> <span id="dialogFocus"></span></p><p><strong>Material status:</strong> <span id="dialogMaterial"></span></p><ul><li>Confirm the real product's intended use and complete specifications.</li><li>Read the manufacturer's cleaning, storage and safety guidance.</li><li>Do not rely on this concept page for price, stock, sizing or fit claims.</li></ul><div class="dialog-warning">Preview only — no checkout, payment, order, rating or verified stock is connected.</div></div>
-  </dialog>
+  <div class="saved-drawer" id="savedDrawer" hidden aria-label="Saved picks"><div class="saved-drawer-head"><div><span class="eyebrow">YOUR SHORTLIST</span><h2>Saved picks</h2></div><button class="icon-button" id="closeSaved" aria-label="Close saved picks">×</button></div><p class="drawer-hint">Saved list tumhare current browser par hi rehti hai.</p><div id="savedItems" class="saved-items"></div><button class="button button-quiet drawer-clear" id="clearSaved" type="button">Clear saved list</button></div>
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
 
-  <div class="age-gate" id="ageGate" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
-    <div class="age-card"><div class="age-mark" aria-hidden="true">18+</div><p class="eyebrow">BLACKED WELLNESS EDIT</p><h2 id="ageTitle">A space for adults.</h2><p>This section covers adult intimate-wellness categories and product concepts. Please continue only if you are 18 or older.</p><div class="age-actions"><button class="button" id="confirmAge" type="button">I'm 18 or older — continue</button><a class="button button-secondary" href="index.html">Leave this section</a></div><div class="age-small">Self-attestation only. This does not verify identity or age.</div></div>
-  </div>
+  <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle"><div class="dialog-head"><div><span class="eyebrow">REFERENCE DETAILS</span><h2 id="dialogTitle">Product title</h2></div><button class="icon-button" id="dialogClose" aria-label="Close details">×</button></div><div class="dialog-content"><img id="dialogImage" src="assets/starter-comfort.jpg" alt=""><div><p class="dialog-price" id="dialogPrice"></p><p id="dialogDescription"></p><ul><li>Exact product specifications verify karo.</li><li>Current price, stock aur seller authenticity check karo.</li><li>Returns, cleaning aur material guidance read karo.</li></ul><p class="dialog-warning">Yeh screenshot-based reference hai, verified BLACKED stock listing nahi. Checkout ya booking active nahi hai.</p><button class="button button-pink" id="dialogSave" type="button">♡ Save this pick</button></div></div></dialog>
+  <div class="compare-bar" id="compareBar" hidden><span id="compareCount">0 picks selected</span><div><button class="button button-quiet" id="clearCompare">Clear</button><button class="button button-pink" id="compareNow">Compare picks</button></div></div>
+  <dialog class="compare-dialog" id="compareDialog" aria-labelledby="compareTitle"><div class="dialog-head"><div><span class="eyebrow">SIDE-BY-SIDE CHECK</span><h2 id="compareTitle">Compare your picks</h2></div><button class="icon-button" id="compareClose" aria-label="Close compare">×</button></div><div id="compareContent" class="compare-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
