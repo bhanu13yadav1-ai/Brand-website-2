@@ -1,10 +1,5 @@
-BLACKED INNERWEAR Fit Studio
-Version: 0.8.0
+BLACKED Intimates + After Dark Wellness
+Version: 1.6
 Build type: Static HTML/CSS/JavaScript
-Budget: designed for ₹0; no AI API, no paid API, no npm install
-Catalog: 43 reference/concept options; not all are verified products/SKUs
-P0–P4: image mapping, product gallery, fit guidance, style tools, privacy/trust placeholders
-Plus-One Club: 18+ non-sexual platonic companion outing concept; demo only, no providers or bookings
-Companion safety: public meetups, age/identity verification required before live service, consent/boundaries, reporting and legal review
-External references: user-supplied SYRN-branded images are labelled as inspiration only; no store website link/embed
-Deployment: not uploaded to user's GitHub and not live-deployed
+New: interactive nine-frame 360-degree concept angle viewer, swipable/slider controls, massager product photo concept.
+Important: angle frames are generated concept imagery, not verified supplier photography. No AI try-on, inventory, live price, checkout or payment backend is connected.
