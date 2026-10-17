@@ -1,0 +1,13 @@
+BLACKED WELLNESS 18+ — INSTALL NOTES
+
+1. Upload wellness.html, wellness.css and wellness.js to the ROOT of the existing GitHub repository, beside index.html and styles.css.
+2. Open index.html in GitHub → Edit (pencil) → find the existing navigation link:
+     <a href="#after-dark">After Dark</a>
+   Add this line directly below it:
+     <a href="wellness.html">Wellness 18+</a>
+3. Commit the index.html change to the branch GitHub Pages publishes from (usually main / root).
+4. Open the site's published URL and add /wellness.html to test the new page. If Pages uses a different folder/branch, put all three files in that published folder instead.
+
+The new page is self-contained and does not require edits to app.js or styles.css. Existing sections are kept unchanged.
+
+Important: this build is a front-end prototype. The cards are visual concepts only; no real product inventory, prices, reviews, cart, payment or checkout is connected. Replace concept art with BLACKED-owned/licensed product photos and verified specifications before selling. The 18+ screen is self-attestation, not identity verification. The comfort finder is local-only and does not send or save answers beyond the current page session.
