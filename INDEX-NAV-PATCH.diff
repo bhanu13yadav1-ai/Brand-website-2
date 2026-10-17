@@ -1,0 +1,8 @@
+--- a/index.html
++++ b/index.html
+@@
+     <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
+       <a href="#collection">Collection</a>
++      <a href="sanskari-edit.html">Sanskari Edit</a>
++      <a href="wellness.html">Wellness 18+</a>
+       <a href="#after-dark">After Dark</a>

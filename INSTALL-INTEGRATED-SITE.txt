@@ -1,0 +1,42 @@
+BLACKED INNERWEAR + WELLNESS + SANSKARI EDIT — V3 (FLAT UPLOAD)
+
+This is an additive patch bundle for the existing GitHub Pages repository. It does not replace your current BLACKED homepage or its app.js/styles.css.
+
+UPLOAD THESE FILES TO THE SAME ROOT FOLDER AS index.html:
+- wellness.html
+- wellness.css
+- wellness.js
+- sanskari-edit.html
+- all files named wellness-*.jpg from this package
+
+All Wellness product images are flat root files with a wellness- prefix. This avoids an assets/ subfolder and prevents overwriting existing BLACKED image assets, which is easier to do from an Android phone.
+
+CONNECT THE MAIN HOMEPAGE:
+1. Open the existing index.html on GitHub and tap Edit (pencil).
+2. Find <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">.
+3. Add the two lines from INDEX-NAV-PATCH.html inside that nav. Keep all current links.
+4. Commit changes.
+
+HOW IT WORKS:
+- index.html stays the main BLACKED INNERWEAR page.
+- wellness.html links back to the existing collection and to sanskari-edit.html.
+- sanskari-edit.html uses original reference images already present at the root of your current repository and links to both the main collection and wellness.html.
+- The new pages and all wellness-*.jpg files must be in the same root as index.html.
+
+IMPLEMENTED WELLNESS FEATURES:
+- 11 non-graphic product-reference cards cropped from the screenshots, avoiding explicit/anatomical product imagery and warning/price banners where possible.
+- category filters, product search, reference-price/name sorting, details popup, locally saved shortlist, compare up to two items, Hinglish Comfort Finder, and session-only 18+ self-attestation.
+- Mobile navigation with cross-links to Innerwear and Sanskari Edit.
+- No checkout, payment, stock sync, account system or backend has been connected.
+
+ACCURACY / RIGHTS:
+- Screenshot-cropped store products are visual references, not verified BLACKED stock. Confirm the exact SKU, current seller, specifications and image-use permission before using them in public commercial product listings.
+- Any visible screenshot price is a reference only, not a live offer. Unknown prices show “Price verify karo”.
+- Sanskari Edit uses existing campaign/concept assets already present in your current repository; these are not confirmation of live inventory.
+- The age screen is self-attestation, not identity verification.
+
+TEST STATUS:
+- JavaScript syntax check passed.
+- HTML parsed; duplicate IDs checked; 11 product cards have unique IDs; referenced Wellness image files exist in the package.
+- Zip integrity passed.
+- A click-through test on the hosted site / actual Android phone is still needed after uploading.

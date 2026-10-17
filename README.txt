@@ -1,9 +1,7 @@
-BLACKED WELLNESS 18+ — Hinglish mobile-first section
+BLACKED INNERWEAR + WELLNESS + SANSKARI EDIT — V3
 
-Open wellness.html in a browser to preview locally. Keep wellness.css, wellness.js and the assets folder beside it. No build tools or install needed.
+Additive patch, not a replacement homepage. Upload wellness.html, wellness.css, wellness.js, sanskari-edit.html, and every wellness-*.jpg file to the same repository root as the existing index.html. Add both links from INDEX-NAV-PATCH.html inside the existing primary nav. Full steps are in INSTALL-INTEGRATED-SITE.txt.
 
-All four visible product references are crops from screenshots you shared. Banners and most surrounding store UI were cropped out. Explicit/anatomical product images were deliberately excluded from the catalog.
+Wellness features: 11 non-graphic screenshot-based visual references, filters, search, sorting, details modal, locally saved picks, compare up to two, Hinglish Comfort Finder and session-only 18+ self-attestation. No real checkout or backend. Product details, prices, stock and commercial image rights are unverified.
 
-Before using commercially, verify the supplier, current stock and price, return/safety requirements and rights to the original product images. No live checkout is implemented.
-
-See ADD-TO-HOMEPAGE.txt for GitHub Pages upload instructions.
+The main BLACKED homepage/app.js/styles.css are not included as replacements. The existing Sanskari page image references are already in the current repository root. Direct GitHub write access was not available in this session, so this package has not been pushed or deployed.

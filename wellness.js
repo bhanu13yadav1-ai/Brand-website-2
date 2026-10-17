@@ -2,6 +2,19 @@
   'use strict';
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const ageGate = $('#ageGate');
+  const ageConfirm = $('#ageConfirm');
+  let ageAccepted = false;
+  try { ageAccepted = sessionStorage.getItem('blackedWellness18Plus') === 'yes'; } catch (_) { ageAccepted = false; }
+  if (ageAccepted) ageGate?.classList.add('is-hidden');
+  else { document.body.classList.add('age-locked'); ageConfirm?.focus({preventScroll:true}); }
+  ageConfirm?.addEventListener('click', () => {
+    try { sessionStorage.setItem('blackedWellness18Plus', 'yes'); } catch (_) { /* session storage may be blocked */ }
+    ageGate?.classList.add('is-hidden');
+    document.body.classList.remove('age-locked');
+    $('#productSearch')?.focus({preventScroll:true});
+  });
+
   const products = $$('.product-card');
   const toastEl = $('#toast');
   let toastTimer;
@@ -74,8 +87,8 @@
       if (show) visible.push(card);
     });
     visible.sort((a, b) => {
-      if (sort === 'price-asc') return Number(a.dataset.price) - Number(b.dataset.price);
-      if (sort === 'price-desc') return Number(b.dataset.price) - Number(a.dataset.price);
+      if (sort === 'price-asc') { const ap=Number(a.dataset.price), bp=Number(b.dataset.price); return (ap>=999999?Infinity:ap) - (bp>=999999?Infinity:bp); }
+      if (sort === 'price-desc') { const ap=Number(a.dataset.price), bp=Number(b.dataset.price); return (bp>=999999?-Infinity:bp) - (ap>=999999?-Infinity:ap); }
       if (sort === 'name') return a.dataset.name.localeCompare(b.dataset.name);
       return Number(a.dataset.featured) - Number(b.dataset.featured);
     });
