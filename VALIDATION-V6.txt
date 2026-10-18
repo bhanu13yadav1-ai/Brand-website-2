@@ -1,0 +1,23 @@
+BLACKED FINAL FUSION V6 — VALIDATION NOTES
+
+Static checks:
+- `node --check site-commerce.js`: passed.
+- All local src/href references in the four add-on pages: mapped in this package or present in the target repo (original boyfriend-cafe-01.webp through 07.webp).
+- All image names used by the commerce JavaScript: mapped in assets/new-gallery/.
+- New responsive styles and JS are external files shared by all four pages.
+- Original index.html is not included, preventing an accidental overwrite.
+
+Browser smoke tests (local inline harness with locally embedded assets):
+- No page-level JavaScript errors detected on Storefront, Sanskari Edit, Wellness 18+ and Boyfriend pages.
+- All rendered local images loaded in the smoke-test harness.
+- Storefront rendered 6 innerwear cards, 4 wellness cards and 10 individual design boards.
+- Add-to-demo-bag and saved-item count interactions worked.
+- Sanskari Edit rendered 14 styles; Lace filter and Ivory search narrowed the result set; campaign frame viewer advanced.
+- Wellness age gate appeared, 14 references rendered, Care filter worked, and two-reference comparison displayed.
+- Date Planner and Hinglish Message Maker generated output.
+
+Not verified:
+- The actual GitHub Pages deployment was not tested from the connected integration.
+- The connected GitHub integration reports read-only access (push=false); no commit/deployment was made by this assistant.
+- Persistent localStorage cannot be fully verified from an opaque local test origin; the page uses localStorage on a normal hosted origin, with an in-memory fallback for restricted contexts.
+- Real login, payment, orders, inventory, shipment tracking, booking and admin analytics are not implemented.

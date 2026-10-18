@@ -1,0 +1,51 @@
+BLACKED FINAL FUSION V6 — ASSET MANIFEST
+
+Folder: assets/new-gallery/
+
+New campaign artwork derived from the uploaded BLACKED campaign posters:
+- sanskari-campaign-burgundy.webp
+- sanskari-campaign-black.webp
+- sanskari-editorial-black.webp
+- sanskari-mirror-edit.webp
+- sanskari-campaign-blue.webp
+- sanskari-campaign-entry.webp
+- sanskari-campaign-gold.webp
+- sanskari-campaign-sheer.webp
+- sanskari-campaign-wide.webp
+- sanskari-black-lace-alt.webp
+
+New generated style/lookbook still lifes:
+- sanskari-hero.webp
+- library-black-lace.webp
+- library-ivory-blush.webp
+- library-luxe-burgundy.webp
+- library-romantic-blush.webp
+- product-black-lace.webp
+- product-ivory-bloom.webp
+- product-burgundy-satin.webp
+- fit-set-black.webp (alpha transparency preserved)
+- fit-set-ivory.webp (alpha transparency preserved)
+- fit-set-burgundy.webp (alpha transparency preserved)
+
+Wellness product/still-life references:
+- wellness-hero.webp
+- wellness-lifestyle.webp
+- wellness-pink-massager-concept.webp
+- wellness-pink-device-concept.webp
+- wellness-purple-product-crop.webp
+- wellness-care-bottle-concept.webp
+- wellness-care-bottle-crop.webp
+- wellness-pink-massager-crop.webp
+- wellness-purple-product-crop.webp
+- wellness-wearable-crop.webp
+- wellness-purple-concept.webp
+- wellness-soft-wand-concept.webp
+- wellness-black-comfort-concept.webp
+- wellness-blue-comfort-concept.webp
+- wellness-gold-comfort-concept.webp
+- wellness-mini-wellness-duo.webp
+- wellness-wearable-comfort-ring.jpg
+
+Curated cards, board previews and spin-viewer frames are kept as separate files with descriptive names in this folder. Images are local to avoid external hotlink dependencies. Some board/frame files intentionally reuse the same source artwork for a different gallery role.
+
+Price/specification caveat: image claims, manufacturer, supplier, stock, pricing, dimensions, materials, certifications and usage rights have not been independently verified.

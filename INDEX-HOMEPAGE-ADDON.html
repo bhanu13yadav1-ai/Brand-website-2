@@ -1,0 +1,26 @@
+<!-- BLACKED V6 optional homepage cards: insert before the existing closing </main> in index.html. -->
+<style>
+#blackedV6HomeAddon{margin:28px auto 36px;max-width:1180px;padding:0 14px;color:#fff7fb;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+#blackedV6HomeAddon *{box-sizing:border-box}
+#blackedV6HomeAddon .b6-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:0 0 14px}
+#blackedV6HomeAddon h2{font-size:clamp(22px,4vw,30px);margin:0;line-height:1.1}
+#blackedV6HomeAddon p{font-size:11px;color:#c0b3c4;margin:6px 0 0}
+#blackedV6HomeAddon .b6-panels{display:grid;grid-template-columns:1fr;gap:11px}
+#blackedV6HomeAddon .b6-card{position:relative;display:flex;align-items:end;min-height:210px;overflow:hidden;border:1px solid #50304e;border-radius:17px;background:#170f19;color:white;text-decoration:none;isolation:isolate}
+#blackedV6HomeAddon .b6-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .25s}
+#blackedV6HomeAddon .b6-card:hover img{transform:scale(1.025)}
+#blackedV6HomeAddon .b6-card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#09070df5,transparent 90%)}
+#blackedV6HomeAddon .b6-copy{padding:16px}
+#blackedV6HomeAddon .b6-copy small{color:#ff9bc6;font-size:9px;letter-spacing:.14em;font-weight:900}
+#blackedV6HomeAddon .b6-copy h3{font-size:24px;line-height:1.05;margin:7px 0}
+#blackedV6HomeAddon .b6-copy span{display:inline-flex;background:#ff2d86;color:#fff;border-radius:999px;padding:9px 12px;font-size:10px;font-weight:900;margin-top:8px}
+@media(min-width:680px){#blackedV6HomeAddon .b6-panels{grid-template-columns:repeat(3,minmax(0,1fr))}#blackedV6HomeAddon .b6-card{min-height:290px}}
+</style>
+<section id="blackedV6HomeAddon" aria-label="Explore BLACKED additions">
+ <div class="b6-head"><div><h2>Explore BLACKED <span style="color:#ff7ab5">Edits</span></h2><p>Innerwear ke existing features safe rahenge; yahan se new experiences explore karo.</p></div><a href="storefront.html" style="color:#ff8fc1;font-size:11px;font-weight:900;white-space:nowrap">Store Home →</a></div>
+ <div class="b6-panels">
+  <a class="b6-card" href="sanskari-edit.html"><img src="assets/new-gallery/sanskari-hero.webp" alt="Sanskari Edit campaign visual" loading="lazy"><div class="b6-copy"><small>EVERYDAY COMFORT · MODERN DESI STYLE</small><h3>Sanskari<br><em> Edit</em></h3><p>Soft look, bold confidence.</p><span>Explore Sanskari →</span></div></a>
+  <a class="b6-card" href="wellness.html"><img src="assets/new-gallery/wellness-hero.webp" alt="Wellness product concept still life" loading="lazy"><div class="b6-copy"><small>PRIVATE WELLNESS · 18+</small><h3>Wellness<br><em>18+</em></h3><p>Clear info, private choices.</p><span>Enter Wellness →</span></div></a>
+  <a class="b6-card" href="boyfriend.html"><img src="boyfriend-cafe-01.webp" data-fallback="assets/new-gallery/wellness-lifestyle.webp" alt="Relationship planning campaign reference" loading="lazy" onerror="this.onerror=null;this.src=this.dataset.fallback"><div class="b6-copy"><small>PLANS · MESSAGES · CONNECTION</small><h3>Boyfriend<br><em>Planner</em></h3><p>Thoughtful moments, no pressure.</p><span>Plan a moment →</span></div></a>
+ </div>
+</section>
